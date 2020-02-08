@@ -1,0 +1,302 @@
+* {
+	box-sizing: border-box;
+	text-decoration: none; 
+}
+
+body {
+	background: #efe9db;
+	width: 100vw;
+	min-width: 100vw;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+	width: 0;
+}
+
+img[alt="www.000webhost.com"] {
+    display : none;
+}
+
+nav {
+	position: relative;
+	float: right;
+	width: 12.5vw;
+}
+
+tr,td {
+	height: 100px;
+}
+
+td.btn a img {
+	width: 100px;
+	height: 100px;
+}
+
+table {
+	position: relative;
+	float: right;
+	border-collapse: collapse;
+	text-align: center;
+	vertical-align: middle;
+	height: 400px;
+	width: 100px;
+} 
+
+tr > td a{
+	color: #77933c;
+}
+
+.btn {
+	padding: 16px 32px;
+	text-align: center;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition: 0.3s;
+}
+
+.btn:hover {
+	transform: scale(1.25);
+}
+
+div#intro {
+	position: relative;
+	float: left;
+	top: 5vh;
+	text-align: center;
+	vertical-align: middle;
+	width: 87.5vw;
+	height: 650px;
+}
+
+div#intromini {
+	position: relative;
+	width: 82.5%;
+	height: 600px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+div#box1 {
+	position: absolute;
+	top: 3%;
+	right: 2.5%;
+	background-color: #d67573;
+	width: 22.5%;
+	height: 150px;
+	z-index: -2;
+}
+
+div#box2 {
+	position: absolute;
+	bottom: 3%;
+	left: 2.5%;
+	background-color: #65bcbf;
+	width: 20%;
+	height: 300px;
+	z-index: -2;
+}
+
+div#box3 {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 310px;
+	height: 310px;
+	font-family: 'Playfair Display', serif;
+	font-size: 45px;
+	font-weight: bold;
+	transform: rotate(90deg);
+	z-index: -1;
+}
+
+div#box4 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 440px;
+	height: 290px;
+	margin-top: -5px;
+	margin-left: 6%;
+	font-family: 'Playfair Display', serif;
+	font-size: 45px;
+	font-weight: bold;
+	text-align: justify;
+	z-index: -1;
+}
+
+div#intromini img {
+	position: relative;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 500px; 
+	width: 88%;
+}
+
+div#info1 {
+	position: relative;
+	float: left;
+	top: 5vh;
+	width: 87.5vw;
+	height: 500px;
+}
+
+div#info1mini {
+	position: relative;
+	width: 82.5%;
+	height: 400px;
+	margin-top: 25px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+div#box5 {
+	position: relative;
+	float: left;
+	width: 36%;
+	height: 400px;
+}
+
+div#box5 img {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-left: 17.5%;
+	margin-right: 17.5%;
+	width: 65%;
+	height: 350px;
+}
+
+div#box6 {
+	position: absolute;
+	bottom: 0;
+	left: 12.5%;
+	width: 160px;
+	height: 280px;
+	background-color: #65bcbf;
+	z-index: -1;
+}
+
+div#desc1 {
+	position: relative;
+	float: right;
+	width: 64%;
+	height: 400px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 20px;
+	text-align: justify;
+}
+
+div#desc1 p {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+div#info2 {
+	position: relative;
+	float: left;
+	top: 5vh;
+	width: 100vw;
+	height: 750px;
+}
+
+div#info2 > div:first-of-type {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	height: 175px;
+}
+
+div#info2 h1 {
+	position: relative;
+	float: left;
+	margin-top: 10px;
+	font-size: 60px;
+	font-family: 'Playfair Display', serif;
+	width: 87.5vw;
+	color: #c91619;
+}
+
+div#info2 h2 {
+	position: relative;
+	float: right;
+	margin-top: -40px;
+	margin-left: ;
+	font-size: 50px;
+	font-family: 'Playfair Display', serif;
+}
+
+div#info2mini {
+	position: absolute;
+	bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100vw;
+	height: 575px;
+}
+
+div#info2mini > div {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1100px;
+}
+
+div.desc2container {
+	position: relative;
+	float: left;
+	text-align: center;
+	width: 330px;
+	height: 525px;
+}
+
+div.space {
+	position: relative;
+	float: left;
+	width: 55px;
+	height: 525px;
+}
+
+div.desc2container img {
+	position: relative;
+	margin-top: 40px;
+	height: 200px;
+	width: 250px;
+}
+
+div.text {
+	position: relative;
+	font-family: 'Playfair Display', serif;
+	font-size: 25px;
+	text-align: center;
+	height:50px;
+}
+
+div.box7 {
+	position: absolute;
+	bottom: 15px;
+	left: 40px;
+	background-color: rgba(101, 188, 191, 0.5);
+	width: 250px;
+	height: 15px;
+}
+div.desc2container div ~ div {
+	text-align: justify;
+	font-family:'PT Sans', sans-serif;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+p {
+	position: relative;
+	margin-top: 20px;
+	float: left;
+	color: black;
+}
+
+p > a {
+	color: black;
+}

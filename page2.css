@@ -1,0 +1,393 @@
+* {
+	box-sizing: border-box;
+	text-decoration: none; 
+}
+
+body {
+	background: #efe9db;
+	width: 100vw;
+	min-width: 100vw;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+	width: 0;
+}
+
+img[alt="www.000webhost.com"] {
+    display : none;
+}
+
+nav {
+	position: relative;
+	float: right;
+	width: 12.5vw;
+}
+
+tr,td {
+	height: 100px;
+}
+
+td.btn a img {
+	width: 100px;
+	height: 100px;
+}
+
+table {
+	float: right;
+	position: relative;
+	border-collapse: collapse;
+    text-align: center;
+	vertical-align: middle;
+    height: 400px;
+    width: 100px;
+} 
+
+tr > td a{
+	color: #77933c;
+}
+
+.btn {
+	padding: 16px 32px;
+	text-align: center;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition: 0.3s;
+}
+
+.btn:hover {
+	transform: scale(1.25);
+}
+
+div#headerpic {
+	position: relative;
+	float: left;
+	width: 87.5vw;
+	height: 250px;
+	overflow: hidden;
+}
+
+div#headerpic img {
+	width: 100%;
+	margin-top: -350px;
+}
+
+div#info1 {
+	position: relative;
+	float: left;
+	margin-top: 50px;
+	width: 87.5vw;
+	height: 600px;
+	text-align: center;
+	line-height: 0.7;
+}
+
+div#info1 > div  {
+	position: relative;
+	top: 10%;
+}
+
+div#info1 > div > div {
+	position: absolute;
+	top: 10%;
+	left: 30%;
+	margin-left: -200px;
+	width: 400px;
+	background-color: #efe9db;
+	z-index: -1;
+}
+
+div#info1 h1 {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 40px;
+}
+
+div#info1 h1 ~ h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 50px;
+}
+
+div#info1 #box1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 30%;
+	height: 600px;
+	border-style: none solid none none;
+	z-index: -2;
+}
+
+div#info1 #box2 {
+	position: relative;
+	float: right;
+	width: 70%;
+	height: 600px;
+	line-height: 1.2;
+	z-index: -1;
+}
+
+#info1 #box2 p {
+	margin-top: 210px;
+	margin-left: 30px;
+	margin-right: 30px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 30px;
+	text-align: justify;
+}
+
+div#info2 {
+	position: relative;
+	float: left;
+	margin-left: 10vw;
+	margin-right: 10vw;
+	width: 80vw;
+	height: 500px;
+}
+
+div#info2 #box1 {
+	position: relative;
+	float: left;
+	width: 40%;
+	height: 100%;
+}
+
+div#info2 #box1 #minibox1 {
+	position: relative;
+	float: right;
+	width: 350px;	
+}
+
+div#info2 #box1 #minibox1 > div {
+	position: relative;
+	float: right;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 35%;
+	margin-right: 25%;
+	width: 100%;
+	padding-top: 100%;
+}
+
+div#info2 #box1 #minibox1 > div > div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 85%;
+	height: 85%;
+	background-color: rgba(101, 188, 191, 0.5);
+	z-index: -1;
+}
+
+div#info2 #box1 img {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 85%;
+	height: 85%;
+}
+
+div#info2 #box2 {
+	position: relative;
+	float: right;
+	width: 60%;
+	height: 100%;
+}
+
+#info2 #box2 p {
+	margin-top: 70px;
+	margin-right: 160px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 30px;
+	text-align: justify;
+}
+
+div#info3 {
+	position: relative;
+	float: left;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	width: 90vw;
+	height: 500px;
+}
+
+div#info3 #box1 {
+	position: relative;
+	float: left;
+	width: 60%;
+	height: 100%;
+}
+
+div#info3 #box2 {
+	position: relative;
+	float: right;
+	width: 40%;
+	height: 100%;
+}
+
+#info3 #box1 h1 {
+	position: relative;
+	float: right;
+	width: 300px;
+	font-family: 'Playfair Display', serif;
+	font-size: 50px;
+}
+
+#info3 #box1 h1 > div {
+	position: absolute;
+	bottom: 5px;
+	width: 291px;
+	height: 15px;
+	background-color: rgba(217, 114, 115, 0.5);
+}
+
+#info3 #box1 p {
+	position: relative;
+	float: right;
+	margin-left: 60px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 25px;
+	text-align: justify;
+}
+
+#info3 #box2 img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 75%;
+}
+
+#info3 #box2 > div {
+	position: relative;
+	float: left;
+	margin-left: 10%;
+	width: 400px;
+}
+
+#info3 #box2 > div > div {
+	position: relative;
+	width: 100%;
+	padding-top: 100%;
+}
+
+#info3 #box2 > div > div > div {
+	position: absolute;
+	bottom:0;
+	left: 22.5%;
+	width: 60%;
+	height: 80%;
+	background-color: rgba(217, 114, 115, 0.5);
+	z-index: -1;
+}
+
+div#info4 {
+	position: relative;
+	float: left;
+	width: 100vw;
+	height: 550px;
+}
+
+#info4 #box1 {
+	position: relative;
+	float: left;
+	width: 26.25%;
+	height: 100%;
+	border-style: none solid none none;
+}
+
+#info4 #box1 h1 {
+	position: relative;
+	float: right;
+	margin-right: 10%;
+	font-family: 'Playfair Display', serif;
+	font-size: 70px;
+}
+
+#info4 #box2 {
+	position: relative;
+	float: right;
+	width: 73.75%;
+	height: 100%;
+}
+
+#info4 #box2 p {
+	margin-left: 10%;
+	margin-right: 10%;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 30px;
+	text-align: justify;	
+}
+
+#info4 #box2 p::first-letter {
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 50%;
+}
+
+#info4 #box2 p:nth-child(odd)::first-letter {
+	background-color: rgba(217, 114, 115, 0.5);
+}
+#info4 #box2 p:nth-child(even)::first-letter {
+	background-color: rgba(101, 188, 191, 0.5);
+}
+
+div#info5 {
+	position: relative;
+	float: left;
+	margin-top: 150px;
+	width: 100vw;
+	height: 250px;
+}
+
+#info5 #box1 {
+	position: relative;
+	float: left;
+	width: 30%;
+	height: 100%;
+	overflow: hidden;
+}
+
+#info5 img {	
+	width: 100%;
+	height: 100%;
+}
+
+#info5 #box2 {
+	position: relative;
+	float: right;
+	width: 70%;
+	height: 100%;
+	background-color: #688f4e;
+}
+
+#info5 #box2 p{
+	font-family: 'Playfair Display', serif;
+	font-size: 40px;
+	color: #efe9db;
+	text-align: center;
+}
+
+#info5 a {
+	position: absolute;
+	left: 50%;
+	margin-left: -100px;
+	width: 200px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 25px;
+	text-align: center;
+	color: #688f4e;
+	background-color: #b1d182;
+}
+
+body > p {
+	position: relative;
+	float: left;
+	color: black;
+}
+p > a {
+	color:  black;
+}
