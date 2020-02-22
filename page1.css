@@ -343,3 +343,55 @@ body > p {
 body > p > a {
 	color: black
 }
+
+#warning {
+    display : none;
+}
+
+@media only screen and (max-width : 900px){
+    #warning {
+        display : block;
+        
+        background-color : black;
+        
+        position : fixed;
+        
+        top : 0px;
+        left : 0px;
+        
+        width : 100vw;
+        height : 100vh;
+    }
+    
+    #warning h1 {
+        margin-left : auto;
+        margin-right : auto;
+        
+        width : 100%;
+	font-family: 'Playfair Display', serif;
+    }
+    
+    .title {
+        color : rgb(255, 0, 0);
+        
+        font-size : 40px;
+    }
+    
+    .subtitle {
+        color : rgb(255, 0, 0, 0.5);
+        
+        font-size : 30px;
+    }
+    
+    html:hover .title {
+        color : rgb(255, 0, 0);
+        
+        text-align : center;
+    }
+    
+    html:hover .subtitle {
+        color : rgb(255, 0, 0, 0.5);
+        
+        text-align : center;
+    }
+}
